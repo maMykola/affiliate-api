@@ -12,9 +12,11 @@ require_once __DIR__ . '/parameters.php';
  **/
 function getAffiliateLink($pid)
 {
+    global $access_key;
+    
     $api_url = 'http://' . AFFILIATE_DOMAIN . '/api/links/get.php';
     $data = [
-        'access_key' => '596c172b2b2b0',
+        'access_key' => $access_key,
         'target_id' => $pid,
     ];
 
