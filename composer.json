@@ -1,0 +1,7 @@
+{
+    "name": "uspc/affiliate-api",
+    "description": "API for Affiliate Tools",
+    "require": {
+        "php": "^5.5"
+    }
+}
